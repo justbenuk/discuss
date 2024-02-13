@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 import Providers from "./providers";
-
+import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,9 +18,12 @@ export default function RootLayout({ children }: RootChildren) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Providers>
-          <main>{children}</main>
-        </Providers>
+        <div className="container mx-auto px-4 max-w-6xl">
+          <Providers>
+            <Header />
+            <main>{children}</main>
+          </Providers>
+        </div>
       </body>
     </html>
   );
