@@ -12,7 +12,7 @@ export default async function SingleTopicPage({ params }: topiocshowprops) {
       <div className="col-span-3">
         <h1 className="text-2xl font-bold mb-2">{slug}</h1>
       </div>
-      <div><CreatePostForm /></div>
+      <div><CreatePostForm slug={slug} /></div>
     </div>
   );
 }
