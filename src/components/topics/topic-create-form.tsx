@@ -8,7 +8,7 @@ export default function TopicCreateForm() {
   return (
     <Popover placement='left'>
       <PopoverTrigger>
-        <Button color='primary'>Create A Topic</Button>
+        <Button className="w-full rounded-none" color='primary'>Create A Topic</Button>
       </PopoverTrigger>
       <PopoverContent>
         <form action={action}>
