@@ -1,5 +1,5 @@
 export { CreatePost } from './create-posts'
-export { CreateComment } from './create-comments'
+export { createComment } from './create-comment'
 export { CreateTopic } from './create-topics'
 export { SignIn } from './sign-in'
 export { SignOut } from './sign-out'

@@ -1,6 +1,13 @@
 import TopicCreateForm from "@/components/topics/topic-create-form";
 import TopicsList from "@/components/topics/topics-list";
 import { Divider } from "@nextui-org/react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Discuss - Simple Social Media",
+  description: "Created me Nextjs, Prisma and TailwindCSS",
+};
+
 export default function Home() {
 
   return (
