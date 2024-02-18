@@ -3,7 +3,7 @@
 import { useFormState } from "react-dom";
 import { useEffect, useRef, useState } from "react";
 import { Textarea, Button } from "@nextui-org/react";
-import FormButton from "@/components/common/form-button";
+import FormButton from "../ui/form-button";
 import * as actions from "@/actions";
 
 interface CommentCreateFormProps {
